@@ -5,7 +5,7 @@ import com.example.cc1romainkamiri.domain.entity.Id;
 import com.example.cc1romainkamiri.domain.entity.PaymentInfos;
 import com.example.cc1romainkamiri.domain.service.PaymentInfosService;
 import com.example.cc1romainkamiri.infrastructure.defaultRepositoryImplementation.InMemoryPaymentInformationRepository;
-import org.junit.BeforeClass;
+import org.testng.annotations.BeforeClass;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
